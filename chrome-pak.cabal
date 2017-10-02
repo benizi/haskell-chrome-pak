@@ -1,0 +1,23 @@
+name:                chrome-pak
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/benizi/chrome-pak
+license:             MIT
+license-file:        LICENSE
+author:              Benjamin R. Haskell
+-- maintainer:
+copyright:           2017
+-- category:
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable chrome-pak
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , binary == 0.8.*
+                     , bytestring == 0.10.*
+  ghc-options:         -Wall
