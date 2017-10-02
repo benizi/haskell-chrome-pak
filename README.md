@@ -22,8 +22,8 @@ putStrLn $ entryData e d
 # Checklist
 
 - [x] Parse a `.pak` file to get contents of objects
-- [ ] Generate a `.pak` file from a map of ID => blob
-- [ ] Modify an existing `.pak` file
+- [x] Generate a `.pak` file from a map of ID => blob
+- [x] Modify an existing `.pak` file
 - [ ] Clean up module layout
 
 # License
